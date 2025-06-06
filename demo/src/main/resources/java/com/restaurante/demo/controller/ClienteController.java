@@ -2,9 +2,9 @@
 //Colaborador Cliffordson cetoute
 package com.restaurante.demo.controller;
 
-import com.example.demo.dto.ClienteDTO;
-import com.example.demo.Model.Cliente;
-import com.example.demo.service.ClienteService;
+import com.restaurante.demo.dto.ClienteDTO;
+import com.restaurante.demo.Model.Cliente;
+import com.restaurante.demo.service.ClienteService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.http.HttpStatus;

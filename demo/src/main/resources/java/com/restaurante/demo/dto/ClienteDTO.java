@@ -1,4 +1,4 @@
-package com.example.demo.dto;
+package com.restaurante.demo.dto;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.*;
@@ -6,18 +6,18 @@ import jakarta.validation.constraints.*;
 @Schema(description = "DTO para cadastro de cliente")
 public class ClienteDTO {
     @NotBlank
-    @Schema(description = "Nome completo do cliente", example = "João Silva")
+    @Schema(description = "Nome completo do cliente", restaurante = "João Silva")
     private String nome;
     
     @NotBlank
     @Email
-    @Schema(description = "E-mail do cliente", example = "joao@example.com")
+    @Schema(description = "E-mail do cliente", restaurante = "joao@restaurante.com")
     private String email;
     
     @NotBlank
     @Pattern(regexp = "^\\(?(\\d{2})\\)?[\\s-]?\\d{4,5}[\\s-]?\\d{4}$", 
              message = "Telefone deve estar no formato (XX) XXXX-XXXX ou (XX) XXXXX-XXXX")
-    @Schema(description = "Telefone do cliente", example = "(11) 99999-9999")
+    @Schema(description = "Telefone do cliente", restaurante = "(11) 99999-9999")
     private String telefone;
 
     // Getters e Setters

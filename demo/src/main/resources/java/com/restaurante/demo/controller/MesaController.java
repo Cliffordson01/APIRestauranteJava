@@ -1,8 +1,8 @@
-package com.example.demo.controller;
+package com.restaurante.demo.controller;
 
-import com.example.demo.dto.MesaDTO;
-import com.example.demo.Model.Mesa;
-import com.example.demo.service.MesaService;
+import com.restaurante.demo.dto.MesaDTO;
+import com.restaurante.demo.Model.Mesa;
+import com.restaurante.demo.service.MesaService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.http.HttpStatus;

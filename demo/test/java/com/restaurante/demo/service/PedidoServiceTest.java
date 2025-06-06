@@ -1,4 +1,4 @@
-package com.example.demo.service;
+package com.restaurante.demo.service;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.any;
@@ -17,11 +17,11 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import com.example.demo.dto.PedidoDTO;
-import com.example.demo.Exception.BusinessException;
-import com.example.demo.Exception.ResourceNotFoundException;
-import com.example.demo.Model.*;
-import com.example.demo.repository.*;
+import com.restaurante.demo.dto.PedidoDTO;
+import com.restaurante.demo.Exception.BusinessException;
+import com.restaurante.demo.Exception.ResourceNotFoundException;
+import com.restaurante.demo.Model.*;
+import com.restaurante.demo.repository.*;
 
 @ExtendWith(MockitoExtension.class)
 public class PedidoServiceTest {

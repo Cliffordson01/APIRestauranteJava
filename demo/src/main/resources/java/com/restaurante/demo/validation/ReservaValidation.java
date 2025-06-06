@@ -1,4 +1,4 @@
-package com.example.demo.validation;
+package com.restaurante.demo.validation;
 
 import jakarta.validation.Constraint;
 import jakarta.validation.Payload;

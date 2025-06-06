@@ -1,10 +1,10 @@
-package com.example.demo.service;
+package com.restaurante.demo.service;
 
-import com.example.demo.dto.MesaDTO;
-import com.example.demo.Exception.BusinessException;
-import com.example.demo.Exception.ResourceNotFoundException;
-import com.example.demo.Model.Mesa;
-import com.example.demo.repository.MesaRepository;
+import com.restaurante.demo.dto.MesaDTO;
+import com.restaurante.demo.Exception.BusinessException;
+import com.restaurante.demo.Exception.ResourceNotFoundException;
+import com.restaurante.demo.Model.Mesa;
+import com.restaurante.demo.repository.MesaRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

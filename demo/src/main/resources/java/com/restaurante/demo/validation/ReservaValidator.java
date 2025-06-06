@@ -1,6 +1,6 @@
-package com.example.demo.validation;
+package com.restaurante.demo.validation;
 
-import com.example.demo.dto.ReservaDTO;
+import com.restaurante.demo.dto.ReservaDTO;
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 import java.time.DayOfWeek;

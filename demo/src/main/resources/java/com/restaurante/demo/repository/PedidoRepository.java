@@ -1,6 +1,6 @@
 package com.restaurante.demo.repository;
 
-import com.example.demo.Model.Pedido;
+import com.restaurante.demo.Model.Pedido;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

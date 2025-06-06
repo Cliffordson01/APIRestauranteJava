@@ -1,8 +1,8 @@
-package com.example.demo.controller;
+package com.restaurante.demo.controller;
 
-import com.example.demo.dto.ItemCardapioDTO;
-import com.example.demo.Model.ItemCardapio;
-import com.example.demo.service.ItemCardapioService;
+import com.restaurante.demo.dto.ItemCardapioDTO;
+import com.restaurante.demo.Model.ItemCardapio;
+import com.restaurante.demo.service.ItemCardapioService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.http.HttpStatus;

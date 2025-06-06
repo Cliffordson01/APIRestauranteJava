@@ -1,7 +1,7 @@
 // Responsavél: Gabriel Ribeiro | Cliffordson Cetoute
 package com.restaurante.demo.repository;
 
-import com.example.demo.Model.Mesa;
+import com.restaurante.demo.Model.Mesa;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

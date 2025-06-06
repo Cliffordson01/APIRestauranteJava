@@ -1,7 +1,7 @@
-package com.example.demo.validation;
+package com.restaurante.demo.validation;
 
-import com.example.demo.Model.Mesa;
-import com.example.demo.repository.MesaRepository;
+import com.restaurante.demo.Model.Mesa;
+import com.restaurante.demo.repository.MesaRepository;
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 import org.springframework.beans.factory.annotation.Autowired;

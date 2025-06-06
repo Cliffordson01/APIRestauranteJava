@@ -1,10 +1,10 @@
-package com.example.demo.service;
+package com.restaurante.demo.service;
 
-import com.example.demo.dto.ItemCardapioDTO;
-import com.example.demo.Exception.BusinessException;
-import com.example.demo.Exception.ResourceNotFoundException;
-import com.example.demo.Model.ItemCardapio;
-import com.example.demo.repository.ItemCardapioRepository;
+import com.restaurante.demo.dto.ItemCardapioDTO;
+import com.restaurante.demo.Exception.BusinessException;
+import com.restaurante.demo.Exception.ResourceNotFoundException;
+import com.restaurante.demo.Model.ItemCardapio;
+import com.restaurante.demo.repository.ItemCardapioRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
